@@ -1,0 +1,50 @@
+*{
+            margin: 0;
+            padding: 0;
+        
+        }
+        body{
+            background-color: #2d0038;
+            background-image: url("tmanezinhocode_.png");
+            background-repeat: repeat;
+            height: 100%;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .calculadora{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 7px;
+            padding: 10px;
+        }
+        .botao{
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            cursor: pointer;
+            background-color: #313131;
+            border: none;
+            color: white;
+        }
+        .botao:hover{
+            background-color: black;
+        }
+        #resultado{
+            background-color: #103100;
+            width: 205px;
+            height: 40px;
+            margin: 20px 5px 10px 5px;
+            font-size: 25px;
+            color: #09ff00;
+            text-align: right;
+            padding: 0px;
+        }
+        h2, h5{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+        }
